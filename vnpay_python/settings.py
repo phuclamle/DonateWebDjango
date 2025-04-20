@@ -25,7 +25,7 @@ SECRET_KEY = '*bzwzl9d&aq)rg2z9(@twit_)=5fp77et3i&l4-xp1h$r)^+gp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['donatewebdjango.onrender.com']
 
 # Application definition
 
@@ -123,3 +123,4 @@ VNPAY_PAYMENT_URL = 'https://sandbox.vnpayment.vn/paymentv2/vpcpay.html'  # get 
 VNPAY_API_URL = 'https://sandbox.vnpayment.vn/merchant_webapi/api/transaction'
 VNPAY_TMN_CODE = 'XOE59VVS'  # Website ID in VNPAY System, get from config
 VNPAY_HASH_SECRET_KEY = 'TGBT0LT6POB41BYJNDA1ZZ1PO33VWH1J'  # Secret key for create checksum,get from config
+
